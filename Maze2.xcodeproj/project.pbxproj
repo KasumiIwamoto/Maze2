@@ -12,6 +12,7 @@
 		4D48BCD51D22BB2D001C64BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D48BCD31D22BB2D001C64BE /* Main.storyboard */; };
 		4D48BCD71D22BB2D001C64BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D48BCD61D22BB2D001C64BE /* Assets.xcassets */; };
 		4D48BCDA1D22BB2D001C64BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D48BCD81D22BB2D001C64BE /* LaunchScreen.storyboard */; };
+		4D48BCE21D22C28D001C64BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48BCE11D22C28D001C64BE /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4D48BCD61D22BB2D001C64BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D48BCD91D22BB2D001C64BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D48BCDB1D22BB2D001C64BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D48BCE11D22C28D001C64BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D48BCE21D22C28D001C64BE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		4D48BCC31D22BB2D001C64BE = {
 			isa = PBXGroup;
 			children = (
+				4D48BCE11D22C28D001C64BE /* AudioToolbox.framework */,
 				4D48BCCE1D22BB2D001C64BE /* Maze2 */,
 				4D48BCCD1D22BB2D001C64BE /* Products */,
 			);
